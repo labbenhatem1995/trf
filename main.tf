@@ -4,6 +4,6 @@ resource "local_file" "foo1" {
 }
 
 output "fileId" {
-  value=local_file.foo.id
+  value=local_file.foo1.id
 #   sensitive   = true
 }
